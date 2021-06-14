@@ -118,12 +118,11 @@ branch_up = 20
 branch = 196
 
 # Ask the user about color settings
-wn = turtle.Screen()
 while True:
     try:
         wn_color = turtle.textinput("Let's start!", '''What background color do you want? Enter a color name (e.g. green) or hex code (e.g. #86ff94). 
 Please note that the darker color you choose, the harder will it be to see the tree.''')
-        wn.bgcolor(wn_color)
+        turtle.bgcolor(wn_color)
         if 'yes' == turtle.textinput('Confirmation of color choice', 'Is this the background color you want? If so, write yes'):
             break
     except:
@@ -133,9 +132,9 @@ while True:
     try:
         alive_color = turtle.textinput('Color settings', '''What color should represent those who are alive? Enter a color name (e.g. green) or hex code (e.g. #86ff94). 
 Please note that the darker color you choose, the harder will it be to see the name.''')
-        wn.bgcolor(alive_color)
+        turtle.bgcolor(alive_color)
         if 'yes' == turtle.textinput('Confirmation of color choice', 'Is this the color you want for those who are alive? If so, write yes'):
-            wn.bgcolor(wn_color)
+            turtle.bgcolor(wn_color)
             break
     except:
         pass
@@ -144,9 +143,9 @@ while True:
     try:
         dead_color = turtle.textinput('Color settings', '''What color should represent those who are dead? Enter a color name (e.g. green) or hex code (e.g. #86ff94). 
 Please note that the darker color you choose, the harder will it be to see the name.''')
-        wn.bgcolor(dead_color)
+        turtle.bgcolor(dead_color)
         if 'yes' == turtle.textinput('Confirmation of color choice', 'Is this the color you want for those who are dead? If so, write yes'):
-            wn.bgcolor(wn_color)
+            turtle.bgcolor(wn_color)
             break
     except:
         pass
@@ -468,7 +467,7 @@ draw_square(t2, size)
 jump_up(t2, size)
 write_name(t2, p15_name)
 
-for t in wn.turtles():
+for t in turtle.turtles():
     t.hideturtle()
 
 turtle.done()
