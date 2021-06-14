@@ -4,11 +4,7 @@
 
 ![Demo](demo-result.PNG)
 
-<p style="color: #FF0098;  font-family: Georgia;" >Click on the binder badge below to give it a try! Please note that you need to open <strong>family-tree-with-turtle-graphics.ipynb</strong> (i.e. the <strong>interactive</strong> Juputer Notebook).</p>
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/the-exceptional-exception/family-tree-with-turtle-graphics/HEAD)
-
-<p style="color: #FF0098;  font-family: Georgia;" >In case you only want to check out the code, take a look at <a href="family-tree-with-turtle-graphics.py">family-tree-with-turtle-graphics.py</a></p>
+<p style="color: #FF0098;  font-family: Georgia;" >In case you want to check out the code, take a look at <a href="family-tree-with-turtle-graphics.py">family-tree-with-turtle-graphics.py</a></p>
 
 <h1 style="color: aquamarine;  font-family: Georgia;" align="center">Limitations</h1>
 
